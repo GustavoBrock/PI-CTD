@@ -1,0 +1,88 @@
+VS Code:
+    É uma IDE (Ambiente de Desenvolvimento Integrado) --> Microsoft;
+    Compativel com Windows, Linux e MAC;
+        Usando a ferramenta:
+            Menu lateral:
+                Explorar: Nos dá acesso para ver nossa estrutura de pastas e arquivos;
+                Buscar: Nos permite pesquisar textos em nossos arquivos.
+                Source Control: Nos permitirá criar nossa versão local do projeto com a versão em nuvem
+                Run: Nos permitirá executar e depurar o código;
+                Extensões: Mostra as extensões que instalamos;
+            Barra de estado:
+                Fornecesse informações sobre o arquivo que estamos editando;
+            Atalhos:
+                Criar um novo arquivo: Ctrl + N;
+                Abrir arquivo: Ctrl + O;
+                Salvar Arquivo: Ctrl + S;
+                Salvar arquivo como (mesmo arquivo com nome diferente): Ctrl + Shift + S;
+                Pesquisar no arquivo: Ctrl + F;
+                Encontrar e substiruir no arquivo: Ctrl + H;
+                Abrir terminal: Ctrl + Shift + "
+--------------------------------------------------------------------------------------------------------------------------------
+Node:
+    é um ambiente de execução, ou seja, permite que executemos o JavaScript
+--------------------------------------------------------------------------------------------------------------------------------
+Variaveis de codagem .js
+    "O que são?": São espaços de memoria no computador, onde podemos armazenar diferentes tipos de dados.
+    Em .js nós temos 3 tipos basicos de váriaveis:
+    var;
+    let;
+    const;
+var:
+    var nomeSignificativo
+    var: a palavra reservada var indica ao JavaScript que vamos declarar uma variavel do tipo var;
+    nomeSignificativo: Só pode ser formado por letras, números e os simbolos $ e _;
+                       Não pode iniciar com um número;
+                       Não deve conter carateres com acento;
+
+        Exemplo: var minhaVarivael;
+                é diferente de
+                 var MinhaVariavel;
+
+     Atribuindo um valor:
+        var meuApelido = 'Hackerman';
+            meuApelido: Nome; É o nome que servirá para identificar nossa váriavel quando precisarmos dela;
+            =:Atribuição; diz ao .JavaScript que queremos armazenar o valor à direita na variável à esquerda;
+            Hackerman: Valor; o que vamos armazenar em nossa variável. Nesse caso um texto;
+let:
+    Estas variáveis se declaram de uma maneira similar, com a diferença que utilizamos a palavra reservada let;
+        let contador = 1;
+
+    A principal diferença entre o let e o var é que:
+        o var será acessivel globalmente em nosso código;
+        já o let será acessivel apenas no bloco onde foi declarado;
+        OBS: Devido as recomendações de boas praticas utilizamos o let;
+        OBS2: Os blocos de código são delimitados por um par de chaves {};
+
+    Acessar exemplo.js para mais informações;
+const:
+    As va const se declaram com a palavra reservada const;
+        const email = "meu.email@hotmail.com"
+
+        elas funcionam igual a let, ou seja, estão diponiveis apenas no bloco de código em que estão declaradas;
+        por outro lado diferentemente de let, uma vez atribuido valor este não pode ser modificado;
+
+        Vide exemplo.js
+Tipos de dados:
+    Númericos (number)
+        let num = 35; número inteiro;
+        let preco = 150.65; decimais;
+
+    Cadeia de caracteres (string):
+        let nome = 'joão José'; aspas simples;
+        let cargo = "Programador"; aspas duplas tem a mesma função;
+
+    Lógicos ou booleanos (boolean):
+        let CursoLegal = true;
+        let falteiNaAula = false;
+
+    NaN (Not a number):
+        let divisaoImperfeita = "35a" / 2;
+    
+    Null (valor nulo):
+        let temperatura = null;
+
+    Undefined (sem valor definido):
+        Let saudacao;
+
+         
